@@ -1,0 +1,2 @@
+myName, internalEmail@myDomain.intranet
+otherName, anotherEmail@myDomain.intranet
