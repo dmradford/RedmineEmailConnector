@@ -9,9 +9,9 @@ As this was originally designed as an in-house tool, some configuration will be 
 Custom settings must be configured in the following files and lines of code:
 
 UserEmails.txt. This file is not required, however if not used, ever email will be sent to redmine from the Default email, set in connector.py
-UserEmails should be configured as 1 user per line with a uniquely identifying part of the "From" name whe you send an email followed by a comma, then your internal email address as configured in your Redmine instance. For example, if your From is configured as "MyCompany - John Doe" and your internal email is "jdoe@myIntranet.intranet", the first line of this file would read:
+UserEmails should be configured as 1 user per line with a uniquely identifying part of the "From" name whe you send an email followed by a comma, then your internal email address as configured in your Redmine instance. For example, if your From is configured as "MyCompany | John Doe" and your internal email is "jdoe@myIntranet.intranet", the first line of this file would read:
 
-- John Doe, jdoe@myIntranet.intranet
+| John Doe, jdoe@myIntranet.intranet
 
 connector.py. You will need to input your email settings into the following lines:
 
